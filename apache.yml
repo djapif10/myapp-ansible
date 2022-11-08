@@ -13,6 +13,6 @@
         enabled: True
     - name: Deploy static website
       copy:
-        src: techmax-main/*
+        src: techmax-main/
         dest: /var/www/html/
 ...
